@@ -183,5 +183,35 @@ delete []mass;
 
 */
 
+/*    // Даны два массива (a, b) одинаковой длины. Требуется найти такие два элемента a[i] и b[j], которые в сумме дают значение X, введенное пользователем.
+    int X;
+    int sum;
+    int N;
+    std::cin>>X;
+    int a[] = {1,4,3,7,12,30,5,8,9,21,53,15};
+    int b[] = {3,4,1,14,6,27,5,5,13,8,4,22};
+    N = sizeof(a)/sizeof(a[0]);
+
+
+    for(int i = 0; i < N; ++i)
+    {
+        a[i];
+        for(int j = 0; j < N; ++j)
+        {
+            b[j];
+            sum = a[i] + b[j];
+            if(sum == X)
+            {
+                std::cout<<a[i]<<"+"<<b[j]<<"="<<X<<std::endl;
+            }
+
+        }
+    }
+    if(sum != X)
+    {
+        std::cout<<"try another number"<<std::endl;
+    }
+
+*/
     return 0;
 }
