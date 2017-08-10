@@ -157,17 +157,17 @@ delete []mass;
     std::cout<<"With number "<<max1<<", position "<<maxPos1<<" and number "<<max2<<", position "<<maxPos2<<std::endl;
 
 
+
 */
 
-
-/*    //Перевернуть массив. Вход: 4 3 9 8 1 . Выход: 1 8 9 3 4
-    int N;
+    //Перевернуть массив. Вход: 4 3 9 8 1 . Выход: 1 8 9 3 4
+/*    int N;
 
     int arr[] = {4, 3, 9, 8, 1, 3, 92, 17, 23};
     N=sizeof(arr) / sizeof(arr[0]);
 
 
-    for(int i = 0, j = N -1; i < j; ++i, --j)
+    for(int i = 0, j = N - 1; i < j; ++i, --j)
     {
         int holder = arr[i];
         arr[i] = arr[j];
@@ -181,7 +181,7 @@ delete []mass;
 
 */
 
-/*    // Даны два массива (a, b) одинаковой длины. Требуется найти такие два элемента a[i] и b[j], которые в сумме дают значение X, введенное пользователем.
+   // Даны два массива (a, b) одинаковой длины. Требуется найти такие два элемента a[i] и b[j], которые в сумме дают значение X, введенное пользователем.
     int X;
     int sum;
     int N;
@@ -210,6 +210,6 @@ delete []mass;
         std::cout<<"try another number"<<std::endl;
     }
 
-*/
+
     return 0;
 }
