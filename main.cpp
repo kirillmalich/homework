@@ -160,18 +160,28 @@ delete []mass;
 
 
 */
+
+
+/*    //Перевернуть массив. Вход: 4 3 9 8 1 . Выход: 1 8 9 3 4
     int N;
 
-    int arr[] = {4, 3, 9, 8, 1};
+    int arr[] = {4, 3, 9, 8, 1, 3, 92, 17, 23};
     N=sizeof(arr) / sizeof(arr[0]);
 
 
-    for(size_t i = 0; i < N; ++i)
+    for(int i = 0, j = N -1; i < j; ++i, --j)
     {
-
+        int holder = arr[i];
+        arr[i] = arr[j];
+        arr[j] = holder;
     }
 
+    for(int i=0;i<N;++i)
+    {
+        std::cout<<arr[i]<<std::endl;
+    }
 
+*/
 
     return 0;
 }
