@@ -125,8 +125,6 @@ delete []mass;
 /*    //Найти в массиве два элемента, которые в сумме дают наибольшее значение среди всех других пар;
 
     int N;
-    int maxPosition = 0, minPosition = 0;
-
 
     int arr[] = {103, 30, 73, 17, 23, 54};
     N=sizeof(arr) / sizeof(arr[0]);
