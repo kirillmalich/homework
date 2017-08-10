@@ -162,19 +162,15 @@ delete []mass;
 */
     int N;
 
-    int arr[] = {103, 30, 22, 17, 23, 67};
+    int arr[] = {4, 3, 9, 8, 1};
     N=sizeof(arr) / sizeof(arr[0]);
 
 
-    int min = arr[0];
     for(size_t i = 0; i < N; ++i)
     {
-        if(arr[i] < min)
-        {
-            min = arr[i];
-        }
+
     }
-    std::cout<<min<<std::endl;
+
 
 
     return 0;
